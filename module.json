@@ -43,6 +43,6 @@
   ],
   
   "url": "https://github.com/Arcadio21/k4lt-it",
-  "manifest": "",
-  "download": ""
+  "manifest": "https://github.com/Arcadio21/k4lt-it/releases/latest/download/module.json",
+  "download": "https://github.com/Arcadio21/k4lt-it/releases/latest/download/module.zip"
 }
