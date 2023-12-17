@@ -1,0 +1,48 @@
+{
+  "id": "k4lt-it",
+  "title": "KULT: Divinity Lost · it",
+  "description": "Traduzione compendio delle mosse in italiano per k4lt",
+  "version": ".01",
+  "license": "LICENSE",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.308"
+  },
+  "authors": [
+    {
+      "name": "Arcadio21",
+      "url": "https://github.com/Arcadio21",
+      "email": "Arcadio21@gmail.com",
+      "discord": "arcadio21",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "k4lt",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "k4lt-it.js"
+  ],
+  
+  "url": "https://github.com/Arcadio21/k4lt-it",
+  "manifest": "https://github.com/Arcadio21/k4lt-it/releases/latest/download/module.json",
+  "download": "https://github.com/Arcadio21/k4lt-it/releases/download/1.0/module.zip"
+}

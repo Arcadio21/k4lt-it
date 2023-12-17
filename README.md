@@ -10,3 +10,6 @@ The following requirements are necessary for this module to work :
  * The 'KULT: Divinity Lost (4th Edition)' system (k4lt)
  * The Babele module (essential for translation)
  * Lib-wrapper module (required for Babele)
+
+
+Thanks to @YanKlInnomme for his excellent k4lt-fr, which i use to make this module. 

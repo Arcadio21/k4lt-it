@@ -1,0 +1,100 @@
+{
+	"label": "Actions",
+	"mapping": {
+		"name": "name",
+		"trigger": "system.trigger",
+		"completesuccess": "system.completesuccess",
+		"partialsuccess": "system.partialsuccess",
+		"failure": "system.failure"
+	},
+	"entries": [
+		{
+			"id": "Act Under Pressure",
+			"name": "Agire Sotto Pressione",
+			"trigger": "<p><em>Quando fai qualcosa di rischioso, devi agire entro alcuni limiti di tempo o cerchi di evitare un pericolo </em>,dopo che il GM avrà spiegato cosa accadrà in caso di fallimento, usa <strong>tiro + Freddezza</strong> </p>",
+			"completesuccess": "<p>Riesci nell'impresa.</p>",
+			"partialsuccess": "<p>Riesci nell'impresa , ma con esitazioni o ritardi, oppure devi affrontare una complicazione. Il GM rivela una conseguenza inaspettata, un costo da pagare o una scelta difficile.</p>",
+			"failure": "<p>Ci sono gravi conseguenze, commetti un errore o ti esponi al pericolo. Il GM esegue una mossa.</p>"
+		},
+		{
+			"id": "Avoid Harm",
+			"name": "Evitare il Danno",
+			"trigger": "<p><em>Quando schivi, pari o blocchi un danno</em>, usa <strong>Tiro + Riflessi</strong>.</p>",
+			"completesuccess": "<p>Ne esci del tutto illeso.</p>",
+			"partialsuccess": "<p>Riesci ad evitare il peggio, ma il GM dovrà decidere se finirai in una posizione scomoda, se perderai qualcosa, o se subirai almeno parte del <strong>Danno</strong>.</p>",
+			"failure": "<p>Sei stato troppo lento a reagire o hai preso una decisione errata. Potresti non essere riuscito a schivare alcun <strong>Danno</strong>, oppure potresti essere finito in un punto ancora più scomodo del precedente. Il GM esegue una mossa."
+		},
+		{
+			"id": "Endure Injury",
+			"name": "Sopportare Ferite",
+			"trigger": "<p><em>Quando sopporti delle ferite</em>,usa <strong>Tiro + Tempra - Danno</strong>. Se indossi un armatura, somma al risultato del tiro il suo valore.</p>",
+			"completesuccess": "<p>Sopporti il dolore e vai avanti. </p>",
+			"partialsuccess": "<p>Sei ancora in piedi, ma il GM sceglie una condizione:</p><ul><li>La ferita ti destabilizza.</li><li>perdi qualcosa.</li><li>Subisici una <strong>Ferita grave</strong>.</li></ul>",
+			"failure": "<p>La ferita riesce a sopraffarti. Scegli se:</p><ul><li>Finisci al tappeto (Il GM può scegliere di infliggere invece una <strong>Ferita grave</strong>).</li><li>Subisci una <strong>Ferita critica</strong>, ma riesci ad andare avanti (se hai già una <strong>Fertita critica</strong>, non puoi scegliere questa opzione).</li><li>Muori.</li></ul></p>"
+		},
+		{
+			"id": "Engage in Combat",
+			"name": "Affrontare in combattimento",
+			"trigger": "<p><em>Quando affronti un avversario in grado di partecipare a un combattimento</em>, spiega in che modo lo fai e usa <strong>Tiro + Violenza</strong>.</p>",
+			"completesuccess": "<p>Riesci a infliggere del danno al tuo avversario e schivi i suoi contrattacchi.</p>",
+			"partialsuccess": "<p>Riesci a infliggere del danno ma a un costo. Il GM sceglie un'opzione:</p><ul><li>Subisci un contrattacco.</li><li>Infliggi un danno minore del previsto.</li><li>Perdi qualcosa di importante.</li><li>Usi tutte le munizioni.</li><li>Ti esponi ad una nuova minaccia.</li><li>Finirai nei guai più avanti.</li></ul>",
+			"failure": "<p>Il tuo attacco non va a segno come previsto. Potresti avere sfortuna, mancare il tuo obbiettivo o dover pagare un costo elevato a fronte di questo attacco. Il GM esegue una mossa.</p>"
+		},
+		{
+			"id": "Helping or Hindering",
+			"name": "Aiutare o Ostacolare",
+			"trigger": "<p><em>Quando aiuti o ostacoli un altro personaggio giocante mentre esegue una mossa,</em> Spiega come intendi farlo prima del suo tiro e usa <strong>tiro + Attributo</strong>, dove l'attributo è lo stesso per cui l'altro giocatore sta effettuando un tiro:</p>",
+			"completesuccess": "Puoi modificare il tiro successivo di +2/-2",
+			"partialsuccess": "Puoi modificare il tiro successivo di +1/-1",
+			"failure": "L'intervento ha conseguenze impreviste. Il GM esegue una mossa."
+		},
+		{
+			"id": "Influence Other",
+			"name": "Influenzare Qualcuno",
+			"trigger": "<p><em>Quando influenzi il comportamento di un PNG attraverso una trattativa, una discussione o utilizzando una posizione di potere</em>, usa <strong>tiro+ Carisma</strong>.</p><p><em>Quando influenzi il comportamento di un altro PG </em>, usa <strong>tiro+ Carisma</strong>.</p>",
+			"completesuccess": "<p><strong>PNG</strong>: Farà come vuoi tu.</p><p><strong>PG</strong> : È motivato a fare ciò che gli chiedi, e se lo fa riceve <em>+1 al suo prossimo tiro</em>. È spaventato dalle conseguenze a cui andrà in contro se non farà quello che gli chiedi, e se non lo fa la sua <strong>stabilità</strong> viene modificata di -1.</p>",
+			"partialsuccess": "<p><strong>PNG </strong> : Farà come vuoi tu,  ma in più il GM sceglierà se:</p><ul><li>Richiedere una compensazione più elevata</li><li>In futuro emergerà qualche complicazione</li><li>Cederà in un primo momento, ma in futuro cambierà idea e se ne pentirà.</li></ul><p><strong>PG</strong> : Scegli un opzione tra wuelle elencate:</p><ul><li> È motivato a fare ciò che gli chiedi, e se lo fa riceve <em>+1 al suo prossimo tiro</em>.</li><li>È spaventato dalle conseguenze a cui andrà in contro se non farà quello che gli chiedi, e se non lo fa la sua <strong>stabilità</strong> viene modificata di -1.</li></ul>",
+			"failure": "<p><strong>PNG</strong> : Il tuo tentativo provocherà delle ripercussioni che non avevi previsto. Il Gm esegue una mossa.</p><p><strong>PgG</strong> : &nbsp;Il personaggio ottiene <em>+1 nel prossimo tiro</em> che effettua contro di te. Il GM esegue una mossa.</p>"
+		},
+		{
+			"id": "Investigate",
+			"name": "Investigare",
+			"trigger": "<p><em>Quando stai investigando su una questione</em>,usa <strong>tiro + ragione</strong>. In caso di successo scopri immediatamente tutti gli indizi e puoi formulare alcune domande per ottenere ulteriori informazioni.</p>",
+			"completesuccess": "<p>Puoi porre due domande.</p><p>Domande:</p><ul><li>Come posso scoprire di più a proposito della questione su cui sto indagando?</li><li>Quali sono i miei presentimenti a proposito della questione su cui sto indagando? </li><li>C'è qualcosa di strano a proposito della questione su cui sto indagando ?</li></ul>",
+			"partialsuccess": "<p>Puoi porre una domanda. Le informazioni avranno un costo, stabilito dal GM, come il fatto che dovrai ricorre a qualcuno o qualcosa per ottenere quella risposta, l'esporsi a un pericolo o il dover impegare tempo o risorse extra. Farai tutto ciò che è necessario? <p>Domande:</p><ul><li>Come posso scoprire di più a proposito della questione su cui sto indagando?</li><li>Quali sono i miei presentimenti a proposito della questione su cui sto indagando? </li><li>C'è qualcosa di strano a proposito della questione su cui sto indagando ?</li></ul>",
+			"failure": "<p>Potresti riuscire lo stesso ad ottenere delle informazioni, ma dovrai pagare un costo. Potresti esporti a pericoli o costi aggiuntivi. Il GM esegue una mossa.</p>"
+		},
+		{
+			"id": "Keep It Together",
+			"name": "Forza e Coraggio",
+			"trigger": "<p><em>Quando eserciti l'autocontrollo per evitare di farti sopraffare dallo stress, da esperienze traumatiche, da un influeza psicologica o fa forze soprannaturali</em>,usa <strong>Tiro + Volonta</strong>.</p>",
+			"completesuccess": "<p>Stringi i denti e vai avanti</p>",
+			"partialsuccess": "<p>Ti sforzi di superare la difficoltà, ma sviluppi dei sentimenti negativi che rimarranno con te fino a quando non avrai a disposizione del tempo per riprenderti. Ricevi -1 in tutte le situazioni in cui questo stato d'animo potrebbe costituire un ostacolo</p><p>Scegli una delle seguenti opzioni:</p><ul><li>Sei arrabbiato (-1 Stabilità).</li><li>Sei triste (-1 Stabilità).</li><li>Sei spaventato (-1 Stabilità).</li><li>Sei vittima di un forte senso di colpa (-1 Stabilità).</li><li>Sei ossessionato (+1 Relazione verso qualunque cosa abbia causato questa condizione).</li><li>Sei distratto (ricevi -2 in tutte le situazioni in cui questa condizione rappresenta un ostacolo).</li><li>Sarai tormentato da questa esperienza in un secondo momento.</li></ul>",
+			"failure": "<p>La tensione è troppa. Il GM sceglie che reazione avrai:</p><ul><li>Ti rannicchi inerme in presenza della minaccia</li><li>Cadi in preda al panico perdendo il controllo delle tue azioni.</li><li>Subisci un trauma emotivo (-2 Stabilità).</li><li>Subisci un trauma che cambia per sempre la tua vita (-4 Stabilità).</li></ul"
+		},
+		{
+			"id": "Observe a Situation",
+			"name": "Osserare una situazione",
+			"trigger": "<p><em>Quando osservi una situazione</em>, usa <strong>tiro + Percezione</strong>. In caso di successo, puoi fare al GM alcune domande sulla situazione in cui ti trovi. Quando agisci in virtù di queste risposte , ricevi <em>+1 sui tuoi tiri</em>.</p>",
+			"completesuccess": "<p>Puoi formulare due domande.</p><p>Domande:</p><ul><li>Qual è il modo migliore in cui affrontare questa situazione ?</li><li>Qual è la più grande minaccia al momento ?</li><li>Cosa posso usare al mio vantaggio ?</li><li>Cosa dovrei cercare ?</li><li>C'è qualcosa che non posso vedere ?</li><li>c'è qualcosa di strano in tutto questo ?</li></ul>",
+			"partialsuccess": "<p>Puoi formulare una domanda.</p><p>Domande:</p><ul><li>Qual è il modo migliore in cui affrontare questa situazione ?</li><li>Qual è la più grande minaccia al momento ?</li><li>Cosa posso usare al mio vantaggio ?</li><li>Cosa dovrei cercare ?</li><li>C'è qualcosa che non posso vedere ?</li><li>c'è qualcosa di strano in tutto questo ?</li></ul>",
+			"failure": "<p>Puoi comuqnue formulare una domanda, ma non ricevi alcun bonus e ti sfugge qualcosa, attiri attenzioni indesiderate o ti esponi a pericoli. Il GM esegue una mossa.</p><p>Domande:</p><ul><li>Qual è il modo migliore in cui affrontare questa situazione ?</li><li>Qual è la più grande minaccia al momento ?</li><li>Cosa posso usare al mio vantaggio ?</li><li>Cosa dovrei cercare ?</li><li>C'è qualcosa che non posso vedere ?</li><li>c'è qualcosa di strano in tutto questo ?</li></ul>"
+		},
+		{
+			"id": "Read a Person",
+			"name": "Comprendere le intenzioni",
+			"trigger": "<p><em>Quando cerchi di capire le intenzioni di una persona </em>,usa <strong>tiro + Intuizione</strong>. In caso di successo potrai porre al GM/Giocatore alcune domande sul suo personaggio in qualsiasi momento nell'arco della scena corrente, durante una conversazione:</p>",
+			"completesuccess": "<p>Puoi formulare due domande.</p><p>Domande:</p><ul><li>Stai mentendo?</li><li>come ti senti in questo momento ?</li><li>Cosa hai intenzione di fare ?</li><li>cosa vorresti che facessi ?</li><li>In che modo potrei convincerti a [...] ?</li></ul>",
+			"partialsuccess": "<p>Puoi formulare una domanda.</p><p>Domande:</p><ul><li>Stai mentendo?</li><li>come ti senti in questo momento ?</li><li>Cosa hai intenzione di fare ?</li><li>cosa vorresti che facessi ?</li><li>In che modo potrei convincerti a [...] ?</li></ul>",
+			"failure": "<p>Riveli accidentalmente le tue intenzioni alla persona che stavi cercando di comprendere. Dichiara al GM/giocatore le tue intenzioni. Il GM esegue una mossa.</p>"
+		},
+		{
+			"id": "See Through the Illusion",
+			"name": "Vedere Oltre l'Illusione",
+			"trigger": "<p><em>Quando subisci shock e lesioni, oppure distorci le tue percezioni utilizzando droche o riti magici,</em>,usa <strong>tiro + anima</strong> per <strong>Vedere Oltre l'Illusione</strong>.</p>",
+			"completesuccess": "<p>Vedi le cose per come sono realmente.</p>",
+			"partialsuccess": "<p>Vedi al realtà ma provochi anche alcune conseguenze sull'illusione. Il GM sceglie un'opzione:</p><ul><li>Qualcosa avverte la tua presenza.</li><li>L'illusione si sgretola attorno a te</li></ul>",
+			"failure": "<p>Il GM spiega cosa vedi ed esegue una mossa.</p>"
+		}
+	]
+}
