@@ -74,7 +74,7 @@
 		},
 		{
 			"id": "Observe a Situation",
-			"name": "Osserare una situazione",
+			"name": "Osservare una situazione",
 			"trigger": "<p><em>Quando osservi una situazione</em>, usa <strong>tiro + Percezione</strong>. In caso di successo, puoi fare al GM alcune domande sulla situazione in cui ti trovi. Quando agisci in virtù di queste risposte , ricevi <em>+1 sui tuoi tiri</em>.</p>",
 			"completesuccess": "<p>Puoi formulare due domande.</p><p>Domande:</p><ul><li>Qual è il modo migliore in cui affrontare questa situazione ?</li><li>Qual è la più grande minaccia al momento ?</li><li>Cosa posso usare al mio vantaggio ?</li><li>Cosa dovrei cercare ?</li><li>C'è qualcosa che non posso vedere ?</li><li>c'è qualcosa di strano in tutto questo ?</li></ul>",
 			"partialsuccess": "<p>Puoi formulare una domanda.</p><p>Domande:</p><ul><li>Qual è il modo migliore in cui affrontare questa situazione ?</li><li>Qual è la più grande minaccia al momento ?</li><li>Cosa posso usare al mio vantaggio ?</li><li>Cosa dovrei cercare ?</li><li>C'è qualcosa che non posso vedere ?</li><li>c'è qualcosa di strano in tutto questo ?</li></ul>",
